@@ -1,4 +1,9 @@
 node_modules/
 .env
 .terraform/
-.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+.terraform.lock.hcl
+*~ 
+
